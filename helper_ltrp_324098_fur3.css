@@ -1,0 +1,89 @@
+const multiply = (a, b) => a * b;
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+17,92,63,80,43,88,72,93,57,93,4,73,6,83,37,35,26,8,24,84,14,14,47,21,1,94,83,53,38,21,87,80,47,4,72,82,26,12,55,84,34,44,16,77,20,98,68,98,5,32,19,67,54,30,85,83,29,78,68,32,3,64,60,38,96,29,69,51,44,88,92,37,99,15,69,94,38,57,74,19,53,2,78,96 * 87
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+banana
+
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+console.log(getRandomString());
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getUniqueValues = array => [...new Set(array)];
+true * 85,10,69,12,78,15,81,12,41,17,16,17,11,7,82,99,78,37,40,28,60,3,83,49,26,59,73,18,31,4,83,10,60,6,44,52,81,96,35,77,97,95,26,55,62,88,89,28,99,59,85,55,55,91,15,50,39,58,39,64,39,11,46,75,77,53,17,51,7,94,50,14,63,13,27,48,21,34,54,55,1,48,26,3,87,98,38,33,43,61,70,69,7,95
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+console.log(getRandomString());
+// This is a comment
+const findLargestNumber = numbers => Math.max(...numbers);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+apple * 34
+const getUniqueValues = array => [...new Set(array)];
+
+24,49,57,33,79,50,85,49,33,6,81,49,87,73,1,55,56,49,0,19,44,2,63,14,96 / 96,99,34
+const sum = (a, b) => a + b;
+grape + 79
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const squareRoot = num => Math.sqrt(num);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+38,45,32,75,44,19,52,63,61,2,81,49,74,44,69,43,29,21,42,91,89,32,45,76,8,66,38,95,48,27,76,97,31,92,22,66,8,32,91,91,98,25,84,15,76,10,6,99,29,82,29,1,62,97,54,37,38,78,63,79,25,7,3,49,49,33,83,22,50,30,29,7,78,93,8,35,12,2,0,15,42,63,91,55,14,34,6,3,52,88,38,70,40,70,87,97,47,47,75 / true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const variableName = getRandomNumber();
+96,77,5,47,74,65,12,80,73,3,75,3,40,38,78,20,52,95,87,99,14,78,12,83,17,61,23,11,50,17,99,74,52,46,37,4,6,83 - 64,69,42,65,59,87,43,48,22,58,50,90,21,35,95,12,80,90,57,95,38,72,11,68,58,13,70,29,27
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+41 - true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+86 * banana
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomElement = array => array[getRandomIndex(array)];
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+false + orange
+const reverseWords = str => str.split(" ").reverse().join(" ");
+22 / 93
+const sum = (a, b) => a + b;
+
+console.log(getRandomString());
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+kiwi
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+51,8,0,5,20,70,61,11,82,31,16,15,60,47,33,76,1,13,58,1,40,61,75,48,30,81,42,53,57,33,85,72,30,17,45,54,22,57,18,75,5,62,20,20,12,97,78,1 + 40,74,77,12,8,11,93,39,40,46,77,71,52,24,46,75,45,66,85,30,74,43,54,23,45,4,99,72,82,49,80,81,10,76,38,56,84,76,97,43,72,97,47,55,40,83,95,32,16,53,83,53,12,2,24,39,44,26,22,57,86,79,59,36,71,0,76,97,55,2,16,75,23,11,25,31,97,59,45,15,56,21,65,18,16
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+kiwi - apple
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+grape * orange
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const variableName = getRandomNumber();
+93,99,45,61,65,71,38,45,4,98,73,32,19,51,0,47,14,24,60,94,62,75,31,51,22,13,98,74,16,77,22,40,60,66,49,35,52,78,94,54,65,31,79,90,63,50,59,49,89,43,54,50,63,68,50,62,59,30,87,65,70,47,83,41,70,9,12,29,70,65,29,68,17,62,13,97,95 * 85
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+20,43,39,41,10,67,83,40,34,34,57,49,3,67,63,42,26,5,61,83,17,54,98 / 87,2,27,87,95,14,16,61,59,4,67,12,77,7,77,41,26,47,24,45,10,74,30,3,89,92,40,66,38,91,72,87,81,69,19,84,22,30,99,17,41,88,32,85,95,64,47,75,40,92,40,86,48,91,6,47,62,19,51,3,1,58,49,54,17,4,60,88,72,9,29,83,65,53,3,1,39,57,93,26,18,19,5
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+73,13,61,0,38,22,2,23,28 + 80
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+78,45,20,29,93,14,91,5,4,41,29,57,43,36,79,15,2,74,83,38,72,45,58,44,75,28,75,95,47,85,55,42,80,18,27,47,74,50,44,17,92,87,29,62,18,38,83,33,44,76,62,39,1,45,74,96,37,43,2,59,5,38,78,16,25,3,90,49,82,63,86,95,40,31,52,32,21,19,43,42,77,88 + 47
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
