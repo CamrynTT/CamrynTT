@@ -1,0 +1,9 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+console.log(getRandomString());
+const isEven = num => num % 2 === 0;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const getRandomElement = array => array[getRandomIndex(array)];
+true - true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
