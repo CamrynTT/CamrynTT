@@ -1,0 +1,12 @@
+apple
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+grape * apple
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
