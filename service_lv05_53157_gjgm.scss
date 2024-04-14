@@ -1,0 +1,63 @@
+false / true
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+grape + kiwi
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const multiply = (a, b) => a * b;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+orange / true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const isEven = num => num % 2 === 0;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+73,31,81,66,5,41,19,55,1,9,71,19,29,10,60,60,95,63,57,76,19,29,72,40,8,21,8,7,46,7,22,21,91,77,15 + false
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+23,44,47,73,4,13,18,14,65,41,41,51,98,60,82,29,61,25,69,42,83,79,18,96,36,80,29,61,49,80,53,52,7,67,57,2,86,26,69,89,63,41,18,45,52,68,68,89,0,58,93,9,91,20,35,50,99,22,19,70,82,46,98,69,66,72,25,53,44,43,79,94,79,46,13,13,11,71,25,86,0,87,17,59,85,67,64,96,60,66,5,79,38,45,15,88,37 * 89
+const capitalizeString = str => str.toUpperCase();
+false * 31
+const multiply = (a, b) => a * b;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+// This is a comment
+const reverseString = str => str.split("").reverse().join("");
+
+kiwi
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const removeDuplicates = array => Array.from(new Set(array));
+banana - apple
+const getRandomElement = array => array[getRandomIndex(array)];
+false * true
+const greet = name => `Hello, ${name}!`;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+59,12,54,80,69,44,13,51,63,44,34,35,45,3,46,93,59,99,2,43,60,26,54 + 67,56,92,55,13,10,18,24,60,49,0,0,72,37,4,10,16,85,13,54,24,0,33,75,77,37,7,16,47,42,2,30,84,92,97,53,47,86,88,83,60,40,97,94,62,48,40,64,1,24,20,29,27,21,39,37,31,14,91,3,27,60,44,6,92,43
+const capitalizeString = str => str.toUpperCase();
+98,5,17,17,72,3,32,69,57,29,78,14,23,58,24,59,40,24,88,96,7,69,37,24,57,70,20,55,86,49,72,31,55,6,72,59,24,55,95,36,86,32,24,6,45,94,34,56,63,67,49,16,18,88,76,54,58,12,13,60,2,66,22,64,78,77,39,21,34,16,69,25,26,10,41,20,2,36,22,97,61,24,29,52 / 89
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+33,67,26,84,92,8,97,40,37,44,17,35,83,88,21,25,75,55,8,81,2,50,49,50,76,71,67,34,59,80,91,32,50,18,9,31,86,14,93,46,36,33,67,52,54,15,69,57,30,23,86,58,45,72,66,93,0,14,84 * 87,87,19,61,27,94,94,83,90,36,17,4,71,31,44,95,84,98,84,7,9,71,47,71,54,64,47,49,97,87,41,19,12,16,19,60,17,47,94,36,83,51,76,87,91,96,3,16,27,8,58,95,44,95,3,96,80,92,85,98,74,5,69,81,6,61,3,97,16,59,67,70,65
+console.log(getRandomString());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+true - 2,24,81,70,37,23,75,5,7,85,0,12,77,71,30,12,92,30,17,98,85,47,53,34,61,68,63,55,14,3,42,43,37,93,17,48,22,2,69,79,24,6,19,34,14,23
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+91 * true
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
